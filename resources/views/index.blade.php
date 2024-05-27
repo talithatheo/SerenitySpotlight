@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mental Health Awareness Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -26,9 +26,9 @@
     <main>
         <div class="slideshow-container">
             <div class="slideshow">
-                <img class="slideshow-img" src="1.jpg" alt="Slide 1">
-                <img class="slideshow-img" src="2.jpg" alt="Slide 2">
-                <img class="slideshow-img" src="3.jpg" alt="Slide 3">
+                <img class="slideshow-img" src="assets/1.jpg" alt="Slide 1">
+                <img class="slideshow-img" src="assets/2.jpg" alt="Slide 2">
+                <img class="slideshow-img" src="assets/3.jpg" alt="Slide 3">
             </div>
             <div class="left-slide">
                 <img src="3.jpg" alt="Left Slide 1">
@@ -113,6 +113,6 @@
             <p>&copy; 2024 Mental Health Awareness. All rights reserved.</p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
