@@ -31,10 +31,10 @@
                 <img class="slideshow-img" src="assets/3.jpg" alt="Slide 3">
             </div>
             <div class="left-slide">
-                <img src="3.jpg" alt="Left Slide 1">
+                <img src="assets/3.jpg" alt="Left Slide 1">
             </div>
             <div class="right-slide">
-                <img src="2.jpg" alt="Right Slide 1">
+                <img src="assets/2.jpg" alt="Right Slide 1">
             </div>
         </div>
         <section id="home">
@@ -43,22 +43,22 @@
         </section>
         <div class="grid-container">
             <section id="article" class="grid-item">
-                <img src="LogoArticles.png" alt="Logo 1">
+                <img src="assets/LogoArticles.png" alt="Logo 1">
                 <h2>Articles</h2>
                 <p>From expert advice to personal stories, each piece is crafted to inspire, inform, and empower you towards better well-being. Explore, learn, and grow with Serenity Spotlight.</p>
             </section>
             <section id="about" class="grid-item">
-                <img src="LogoAbout.png" alt="Logo 2">
+                <img src="assets/LogoAbout.png" alt="Logo 2">
                 <h2>About</h2>
                 <p>Whether you're seeking guidance, inspiration, or a sense of connection, Serenity Spotlight is here to help you navigate your mental health journey with compassion and understanding.</p>
             </section>
             <section id="community" class="grid-item">
-                <img src="LogoCommunity.png" alt="Logo 3">
+                <img src="assets/LogoCommunity.png" alt="Logo 3">
                 <h2>Community</h2>
                 <p>Together, we foster a welcoming environment that promotes healing, growth, and a sense of belonging. Whether you're looking to share your story or find solace in others, the Serenity Spotlight community is here for you.</p>
             </section>
             <section id="merchandise" class="grid-item">
-                <img src="LogoMerchandise.png" alt="Logo 4">
+                <img src="assets/LogoMerchandise.png" alt="Logo 4">
                 <h2>Merchandise</h2>
                 <p>From comfortable apparel to motivational accessories, our merchandise is crafted to provide comfort, encouragement, and a sense of community. Shop now and wear your commitment to mental wellness with pride.</p>
             </section>
