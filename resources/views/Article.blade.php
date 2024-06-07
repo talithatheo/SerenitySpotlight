@@ -301,31 +301,32 @@
                         <h3 class="pre-title">Your Problem</h3>
                         <form class="sharing-form" action="https://formspree.io/f/xdoqvwqw" method="POST">
                             <div class="select-box">
-                                <select name="category" class="selected">
-                                    <option value="" disabled selected>Sharing Category</option>
-                                    <option value="Self Harm">Self Harm</option>
-                                    <option value="Mental Disorder">Mental Disorder</option>
-                                    <option value="Anxiety">Anxiety</option>
-                                    <option value="Panic Attack">Panic Attack</option>
-                                    <option value="Depression">Depression</option>
-                                    <option value="Others">Others</option>
-                                </select>
+                                <div class="selected" tabindex="0">Sharing Category</div>
+                                <input type="hidden" name="category" id="category-input">
+                                <div class="options-container">
+                                    <div class="option" data-value="Self Harm">Self Harm</div>
+                                    <div class="option" data-value="Mental Disorder">Mental Disorder</div>
+                                    <div class="option" data-value="Anxiety">Anxiety</div>
+                                    <div class="option" data-value="Panic Attack">Panic Attack</div>
+                                    <div class="option" data-value="Depression">Depression</div>
+                                    <div class="option" data-value="Others">Others</div>
+                                </div>
                             </div>
                             <div class="form">
                                 <div>
-                                    <input type="text" placeholder="Name" name="name">
+                                    <input type="text" placeholder="Name" name="name" required>
                                 </div>
                                 <div>
-                                    <input type="email" placeholder="Email" name="email">
+                                    <input type="email" placeholder="Email" name="email" required>
                                 </div>
                                 <div>
-                                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" required></textarea>
                                 </div>
                             </div>
                             <div class="choose">
                                 <div class="radio-group">
                                     <div class="radio-item">
-                                        <input type="radio" name="pilihan" id="share" value="Share">
+                                        <input type="radio" name="pilihan" id="share" value="Share" required>
                                         <label for="share">Share</label>
                                     </div>
                                     <div class="radio-item">
