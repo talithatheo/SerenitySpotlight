@@ -382,13 +382,13 @@ main{
 }
 
 .choose .radio-group {
-    margin-bottom: 0; /* Remove margin bottom for radio group */
+    margin-bottom: 0; 
      display: flex;
      align-items: center; 
 }
 
 .selected option[disabled] {
-    display: none; /* Hide the default "Sharing Category" option when the dropdown is opened */
+    display: none; 
 }
 
 /* Copyright */
