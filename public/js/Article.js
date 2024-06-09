@@ -61,3 +61,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.sharing-form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                form.reset(); // Reset the form after successful submission
+                resetSelectBox();
+                alert("Your message has been sent successfully.");
+            } else {
+                alert("There was a problem with your submission. Please try again.");
+            }
+        }).catch(error => {
+            alert("There was an error submitting the form. Please try again.");
+        });
+    });
+
+    function resetSelectBox() {
+        const selectBox = document.querySelector('.selected');
+        selectBox.textContent = "Sharing Category";
+    }
+});
