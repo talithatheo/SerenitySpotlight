@@ -314,10 +314,14 @@ main{
 }
 
 .choose {
-    margin-bottom: 0.7rem; /* Reduce the margin-bottom */
+    margin-bottom: 0.7rem;
 }
 
-.sharing-form div {
+.form div {
+    margin-bottom: 1.4rem;
+}
+
+.choose div{
     margin-bottom: 1.4rem;
 }
 
@@ -341,11 +345,11 @@ main{
 }
 
 .sharing-form .input-field {
-    margin-bottom: 1.4rem; /* Added margin for consistent spacing */
+    margin-bottom: 1.4rem; 
 }
 
 .sharing-form .input-field:last-of-type {
-    margin-bottom: 0; /* Remove margin-bottom from last input field to avoid extra space */
+    margin-bottom: 0; 
 }
 
 .btn-submit {
@@ -382,13 +386,13 @@ main{
 }
 
 .choose .radio-group {
-    margin-bottom: 0; /* Remove margin bottom for radio group */
+    margin-bottom: 0; 
      display: flex;
      align-items: center; 
 }
 
 .selected option[disabled] {
-    display: none; /* Hide the default "Sharing Category" option when the dropdown is opened */
+    display: none; 
 }
 
 /* Copyright */
